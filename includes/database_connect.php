@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("ebdb.cvk0z35mjyq8.us-east-1.rds.amazonaws.com", "admin", "admin1234", "ebdb","3306");
+$conn = mysqli_connect("database-4.cvk0z35mjyq8.us-east-1.rds.amazonaws.com", "admin", "admin1234", "shirazdb","3306");
 
 if (mysqli_connect_errno()) {
    
